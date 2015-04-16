@@ -22,18 +22,6 @@
         "tiddlywiki/centralised",
         "tiddlywiki/readonly"
     ],
-    "languages": [
-        "en-US",
-        "en-GB",
-        "de-AT",
-        "de-DE",
-        "fr-FR",
-        "zh-Hans",
-        "zh-Hant",
-        "it-IT",
-        "ja-JP",
-        "ru-RU"
-    ],
     "build": {
         "index": [
             "--savetiddlers","[tag[external-image]]","images",

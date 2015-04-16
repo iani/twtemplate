@@ -1,10 +1,15 @@
 created: 20140418101736712
 creator: iani
-modified: 20150405231829455
+modified: 20150408183731648
 modifier: iani
 tags: general contents
 title: About
 type: text/vnd.tiddlywiki
 
-This wiki is about learning to work with ~TiddlyWiki5 on Node.js.
-The author's homepage is here: http://iani.github.io
+This is a pre-configured ~TiddlyWiki that can be used to run the editable version with Node.js and to export a read-only version as stand-alone html file using a shell command.
+
+Clone this wiki on github with: 
+
+```
+git clone ...
+```
