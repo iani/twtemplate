@@ -1,0 +1,49 @@
+created: 20150416194728082
+modified: 20150416194936906
+module-type: macro
+tags: 
+title: $:/macros/jstest1.js
+type: application/javascript
+
+/*\
+title: $:/macros/skeeve/mysamplemacro.js
+type: application/javascript
+module-type: macro
+
+<<mysamplemacro character address>>
+
+Example:
+<<mysamplemacro>>
+<<mysamplemacro "Donald Duck">>
+<<mysamplemacro "Mickey Mouse" "Mouse House">>
+
+\*/
+(function(){
+
+/*jslint node: true, browser: true */
+/*global $tw: false */
+"use strict";
+
+/*
+Information about this macro
+This is the mysamplemacro of Tiddly Wiki 5 written in JavaScript 
+*/
+
+exports.name = "mysamplemacro";
+
+exports.params = [
+	{ name: "character" },
+	{ name: "address" }
+];
+
+/*
+Run the macro
+*/
+exports.run = function(character, address) {
+	if( !character) character = "Bugs Bunny";
+	if( !address) address = "Rabbit Hole Hill";
+	var output ="Hi, I'm " + character + " and I live in " + address;
+	return output;
+};
+
+})();
