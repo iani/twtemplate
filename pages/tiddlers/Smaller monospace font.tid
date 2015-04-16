@@ -1,0 +1,13 @@
+created: 20150408181648761
+modified: 20150408181713771
+tags: $:/tags/Stylesheet
+title: Smaller monospace font
+type: text/vnd.tiddlywiki
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 0.8em;
+}

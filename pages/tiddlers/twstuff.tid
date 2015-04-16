@@ -1,0 +1,12 @@
+created: 20150408181854168
+modified: 20150408182116351
+tags: twstuff
+title: twstuff
+type: text/vnd.tiddlywiki
+
+Publishing to static html:
+
+```
+tiddlywiki ./readonly --rendertiddler $:/core/save/all ../index.html text/plain
+```
+
