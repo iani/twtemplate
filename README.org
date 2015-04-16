@@ -1,0 +1,1 @@
+This is a template for cloning to create new tiddlywikis. Pre-cofigured for use with Node.js and for export to read-only version.
